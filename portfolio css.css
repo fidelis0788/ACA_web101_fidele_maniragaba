@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 800px;
+    width: 100vw;
+    height: 100vh;
+  }
+  /* What kind of selector is this? */
+  .logo {
+    width: 120px;
+    height: 80px;
+    margin: 3% 10%;
+  }
+ 
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+ 
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+ 
+  /* This is an element within and element selector */ 
+  nav > a {
+    margin: 1% 1% 1%;
+    height: 5%;
+    width: 12%;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;
+  }
+ 
+  .has-border {
+    border-radius: 25px;
+    border: 2px solid #0795C3;
+    background: none;
+    padding: 20px;
+  }
+ 
+  nav {
+    display:flexbox;
+    justify-content:<content-distribution>;
+    width: 100%;
+    padding-right: 2%;
+  }
+  /* This is an ID selector */
+  #profile-pic {
+    
