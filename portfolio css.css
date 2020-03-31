@@ -1,44 +1,44 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
     background-repeat: no-repeat;
-    background-size: 1200px 800px;
-    width: 100vw;
-    height: 100vh;
+    background-size: 1000px 600px 
   }
   /* What kind of selector is this? */
-  .logo {
-    width: 120px;
-    height: 80px;
-    margin: 3% 10%;
+  logo {
+    max-width: 150px;
+    height: 150px  
   }
  
   header {
     display: grid;
     grid-template-columns: 40% 60%;
-    width: 100%;
+    width: 50%;
   }
  
   main {
     height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
+    width: 50%
+    grid-template-row 30% 40% 30%;
+    padding: 2px;
+    margin: auto;
+    size: 300px;
+    justify-content: center;
   }
  
   /* This is an element within and element selector */ 
-  nav > a {
-    margin: 1% 1% 1%;
+    nav > a {
+    margin: 3% 3% 3%;
     height: 5%;
-    width: 12%;
+    width: 100%;
     color:gray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px;
-    text-align: center;
+    font-size: small Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background: green;
+    padding: 50px;
     border: 2px solid white;
+    justify-content: right;
+    flex-direction: row;
+    padding-top: 50px;
   }
  
   .has-border {
@@ -50,10 +50,13 @@ body {
  
   nav {
     display:flexbox;
-    justify-content:<content-distribution>;
-    width: 100%;
+    justify-content: right;
     padding-right: 2%;
-  }
+    width: 800px;
+    justify-items: right;
+    flex-direction: row;
+
+ 
   /* This is an ID selector */
-  #profile-pic {
-    
+  
+}
