@@ -1,56 +1,44 @@
 body{
-    height: 500px;
-    width: 800px;
-    
-    align-content: center;
+background-color: darkcyan;
+align-items: center;
+
+
 }
-
-
-
 main{
-
-    background-color: rgb(220, 245, 230);
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 30px;
-    border-radius: 1px solid gray;
-    width: auto;
-    margin-left: 200px;
+    background-color: rgb(197, 227, 228);
+
+
 }
  section{
-    display: flex;
     flex-direction: column;
-    height: 400px;
-    width: 1000px;
-   
+    height: auto;
+   padding: 30px;
 
 
 }
 header{
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: cadetblue;
-    margin-left: 200px;
    
 }
     
 .has form{
-    display: flex;
-    flex-direction: column;
     float: left;
     padding: 10px;
+    margin-left:100px ;
 }
 h2{
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding-left: 200px;
+
     
 }
 h6{
-    margin-left: 200px;
+   
     font-style: italic;
     display: flex;
     align-items: center;
@@ -59,7 +47,7 @@ h6{
 
 }
 h5{
-    margin-left: 200px;
+
     font-style: italic;
     display: flex;
     align-items: center;
@@ -70,6 +58,8 @@ h5{
     main{
         display: block;
         margin: auto;
+        padding: 30px;
+        width: 900px;
     }
 h2{
      list-style-position: inside;
@@ -80,7 +70,6 @@ h2{
      padding: 20px;
 }
 h1{
-    margin: auto;
     background-size: none;
     list-style-position: inside;
     margin: none;
@@ -104,14 +93,19 @@ display: auto;
 }
 header{
 list-style-position: inside;
-    max-width: 150px; 
+    max-width: 300px; 
     background-size: auto;
     background-color: none;
     margin: none;
     padding: 20px;
-display: auto;
+    display: auto;
 }
 }
-.formaction {
-    background-color: blue;
+form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    background-color: rgb(197, 227, 228);
 }
