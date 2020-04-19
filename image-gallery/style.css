@@ -35,16 +35,15 @@ section{
   }
   
   .container:hover .image {
-    opacity: 0.3;
+    opacity: 0.5;
   }
   
   .container:hover .middle {
-    opacity: 1;
+    opacity: 3;
   }
   
   .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:rgb(181, 187, 181);
     font-size: 16px;
     padding: 16px 32px;
     color:black
@@ -56,4 +55,25 @@ section{
       justify-content: center;
       align-items: center;
       align-content: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
   }
+  @media( max-width: 767px){
+    section{ 
+      margin-right: 5px;
+      margin-left: 5px;
+      display:block
+      
+  }
+  h1{
+    display:inline-flex
+  }
+  .container{
+    width:auto;
+  }
+}
+@media( max-width: px){
+  section{
+    display:block
+  }
+}
