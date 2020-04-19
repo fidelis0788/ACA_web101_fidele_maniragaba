@@ -1,16 +1,17 @@
 section{ 
-  padding: 30px;
+  margin: 100px;
+  padding: 10px;
   display: grid;  
-  grid-template-columns: 200px 200px 200px;
-  margin-left: 500px,
-  
-       
+  grid-template-columns: 300px 300px 300px 300px 300px;
+      
   }
 .container {
     position: relative;
-    width: 200px;
-    padding: 10px ;  
+    width: 300px;
+   
+  
        
+
 }
   .image {
     opacity: 1;
@@ -19,6 +20,7 @@ section{
     height: 200px;
     transition: .5s ease;
     backface-visibility: hidden;
+    margin: 10px;
   }
   
   .middle {
@@ -41,10 +43,12 @@ section{
   }
   
   .text {
-    background-color: #4CAF50;
-    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(181, 187, 181);
     font-size: 16px;
     padding: 16px 32px;
+    color:black
+    
   }
   h1{
       display: flex;
