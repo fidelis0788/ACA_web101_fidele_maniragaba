@@ -1,8 +1,14 @@
+body{
+  background-color:  darkcyan;
+  
+
+}
 section{ 
-  margin: 100px;
+  margin: 30px 10px 30px 30px;
   padding: 10px;
   display: grid;  
   grid-template-columns: 300px 300px 300px 300px 300px;
+
       
   }
 .container {
@@ -63,6 +69,7 @@ section{
       margin-right: 5px;
       margin-left: 5px;
       display:block
+    
       
   }
   h1{
