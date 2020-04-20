@@ -9,6 +9,7 @@ body {
     width: 100vw;
     height: 40vw;
     background-image: url(./sina-katirachi-HgtVLFq9lQA-unsplash.jpg);
+    background-attachment: fixed;
   
   }
   .logo {
