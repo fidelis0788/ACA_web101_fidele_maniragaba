@@ -10,7 +10,7 @@
  }
  .container-grid {
     display: grid;
-    grid-template-columns: 175px 600px; /*columns widths*/ 
+    grid-template-columns: 175px 600px; 
  }
   .col-1 {
     height: 102vh;
@@ -67,4 +67,9 @@
     }
     h1{
         border-bottom:1px solid rgb(119, 119, 201);
+    }
+    img:hover {
+        display: none;
+        opacity: 0.5;
+        animation-duration: 5s;
     }

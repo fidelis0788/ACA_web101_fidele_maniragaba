@@ -10,18 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online resume</title>
 <link rel="stylesheet" href="./resume-style.css">
-<link rel="stylesheet" href="./interactive.js">
 </head>
 <body>  
 <main>
  
        <div class="container-grid">
        <div class="col col-1">
-        <img src="./Myprofile.png" alt="">
-          <h3> SOFTWARE EXPERT</h3>
+       <div id="image">
+          <img src="./Myprofile.png" alt="">
+       </div>
+        <h3> SOFTWARE EXPERT</h3>
          <ul>
          <h5>Contact info</h5>
-         
          <button type="button" onclick='document.getElementById("phone").innerHTML = "5852371570"'>Click for phone</button>
          <h6 id="phone"></h6>
          <h6>linkedIn:2linkiedIn</h6>
@@ -61,6 +61,16 @@
            </div>
     
      
-</main>  
+</main> 
+<script>
+  function myFunction() {
+  var x = document.getElementById("image");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script> 
 </body>
 </html>
